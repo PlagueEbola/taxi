@@ -32,8 +32,8 @@
 - views: Contains JSP files used as views in the application for cars, drivers, manufacturers, authentication.
 
 # Used Technologies
-- Java `v.18.0.2`
-- Maven `v.3.8.0`
+* Java `v.18.0.2`
+* Maven `v.3.8.0`
 * JDBC `v.4.2`
 * MySQL `v.8.0.22`
 * Java Servlets `v.4.0.1`
