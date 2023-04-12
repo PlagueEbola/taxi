@@ -7,14 +7,14 @@ This project simulates the work of a taxi service.
 - Adding and removing drivers.
 - Adding drivers to specific cars.
 - Display the list of all cars.
-- displaying the list of all cars of the given driver.
+- Displaying the list of all cars of the given driver.
 - Authentication system is realized as well
 
 # How to run? <img src="https://thumbs.dreamstime.com/b/gear-logo-template-vector-icon-illustration-design-156835720.jpg" align="left" align="Right" height="50" width="50">
 1. Clone this repository.
 2. Open a database environment (e.g. MySQLWorkbench). 
 3. And run the script from src/main/resources/init_db.sql in the console.
-4. Add the username to your database password in ConnectionUtil.
+4. Add the `username`, `password`, `URL`, and `driver` to the `ConnectionUtil` class.
 5. Build the project using the Maven command mvn clean package.
 6. Deploy the WAR file to a servlet container. (You can use Tomcat. But no bigger than version 9).
 7. After starting the servlet container, go to the page in your browser http://localhost:8080 .
@@ -39,3 +39,6 @@ This project simulates the work of a taxi service.
 * MySQL `v.8.0.22`
 * Java Servlets `v.4.0.1`
 * Tomcat `v.9.0.7`
+
+# Author <img src="https://t4.ftcdn.net/jpg/02/86/28/95/360_F_286289596_IqNxr6zuTBcbySXJLp6S3CPZDgo9ksFs.jpg" align="left" align="Right" height="50" width="50">
+<a href="https://github.com/PlagueEbola">Sushko Roman</a>
